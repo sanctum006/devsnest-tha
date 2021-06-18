@@ -52,5 +52,5 @@ myFunction({radius:5,height:20})
 //Sixth question
 
 library.sort(function (obj1, obj2) {
-    return obj1["libraryID"] - obj2["libraryID"];
+    return obj2["libraryID"] - obj1["libraryID"];
 });
