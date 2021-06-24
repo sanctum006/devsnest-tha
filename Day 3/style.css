@@ -1,0 +1,50 @@
+body {
+  color: rgb(125, 162, 173);
+  background-color: #eee;
+  display: flex;
+  justify-content: space-around;
+}
+
+legend {
+  text-align: center;
+}
+
+h1 {
+  margin: 0px;
+  padding: 0px;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+.main-container {
+  display: flex;
+  width: 70%;
+  justify-content: space-around;
+  border-color: rgb(126, 174, 219);
+}
+
+.sde {
+  font-weight: normal;
+  margin-top: 0px;
+}
+
+.left-container {
+  width: 42%;
+  padding-left: 30px;
+  font-size: large;
+}
+
+.right-container {
+  width: 45%;
+  font-size: large;
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.heading {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -1,0 +1,17 @@
+body {
+  padding: 80px;
+  background-color: #e0c9a6;
+}
+
+h1 {
+  text-align: center;
+  margin: 30px 0 80px;
+}
+
+h3 {
+  margin: 20px 0;
+}
+
+br {
+  margin: 5px;
+}

@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.board {
+  width: 320px;
+  border: 0.1px solid #aaa;
+  border-right: none;
+  border-bottom: none;
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+
+.cell {
+  width: 15px;
+  height: 15px;
+  background-color: #e14d3e;
+  border: 0.1px solid #aaa;
+  border-left: none;
+  border-top: none;
+}
+
+.cell:hover {
+  opacity: 0.8;
+}
+
+.cell:active {
+  transform: scale(0.9);
+}
