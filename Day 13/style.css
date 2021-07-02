@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(to right, #11998e, #38ef7d);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+input {
+  border: none;
+  outline: none;
+  padding: 15px;
+  font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 15px;
+  font-size: 2.1rem;
+  margin: 0;
+  background-color: #4c4c6d;
+  color: white;
+  position: relative;
+  bottom: 1px;
+  right: 3px;
+}
+
+.warn-heading {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 50px;
+  background-color: rgba(200, 200, 200, 0.2);
+  border-radius: 5px;
+}
+
+.card {
+  background-color: rgba(200, 200, 200, 0.2);
+  width: 600px;
+  border-radius: 2px;
+  padding: 20px;
+  display: flex;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card img {
+  width: 30%;
+  margin-right: 20px;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0 10px 0 0;
+}
+
+.card h2 {
+  font-size: 3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card p {
+  margin: 15px 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* .user-info {
+} */
