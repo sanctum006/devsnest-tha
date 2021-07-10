@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-radius: 3px;
+}
+
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  background-color: #403f4d;
+  color: white;
+  min-width: 500px;
+  padding: 20px 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}

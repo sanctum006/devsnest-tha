@@ -1,0 +1,36 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #053742;
+  overflow: hidden;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter {
+  transition: all 100ms ease-in;
+  background-color: #39a2db;
+  margin: 20px;
+}
+
+button {
+  font-family: "Verdana";
+  font-size: 100px;
+  background-color: #39a2db;
+  border: none;
+  outline: none;
+  padding: 10px;
+  min-width: 150px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.counter:hover {
+  transform: scale(1.05);
+}
