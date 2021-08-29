@@ -1,0 +1,55 @@
+.navbar-bar {
+  display: flex;
+  height: 60px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.avt {
+  width: 20px;
+  border-radius: 100px;
+  position: relative;
+  bottom: 3px;
+}
+
+.navbar-menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.stoy__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.story-img {
+  display: inline;
+}
+
+.story__img {
+  width: 70px;
+  border-radius: 100px;
+  border: 2px solid rgb(190, 48, 48);
+}
+
+.post-img {
+  width: 100%;
+}
+
+.card-tittle {
+  display: flex;
+  justify-content: space-between;
+  height: 20px;
+  margin-top: -20px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.buttons > * {
+  margin: 10px;
+}
